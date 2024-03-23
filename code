@@ -1,0 +1,14 @@
+# Define coordinates of the points
+x1 = float(input('Enter x coordinate of point 1: '))
+y1 = float(input('Enter y coordinate of point 1: '))
+z1 = float(input('Enter z coordinate of point 1: '))
+
+x2 = float(input('Enter x coordinate of point 2: '))
+y2 = float(input('Enter y coordinate of point 2: '))
+z2 = float(input('Enter z coordinate of point 2: '))
+
+# Calculate distance between the two points
+distance = ((x2 - x1) ** 2 + (y2 - y1) ** 2 + (z2 - z1) ** 2) ** 0.5
+
+# Print the calculated distance
+print('Distance between the two points:', round(distance, 2))
